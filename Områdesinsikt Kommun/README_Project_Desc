@@ -1,0 +1,22 @@
+# Områdesinsikt – Kommunnivå
+
+**Syfte:** Visualisering och analys av öppen data för Stockholms kommuner. Områden som rapporten täcker är befolkning, utbildning, sysselsättning & ekonomi per kommun för beslutsstöd inom verksamheten.
+
+**Data:** SCB (befolkning, utbildning, sysselsättning), Kolada, Social styrelsen.
+
+**Teknik:** Power BI, Power Query (M), DAX, GeoJSON-kartor. Planen framåt är att migrera datalageret till Microsoft Fabric och att kunna integrera andra källor.
+
+**Innehåll:** 
+- Statistik på befolkningsmängd utifrån kön, ålderskategorier & bakgrund per kommun samt andelar för utbildningnivåer och sysselsättning.
+- Kommunens grundförutsättningar så som landareal, politiskt styra och ekonomi
+- Svarar på frågor såsom:
+    - Var finns hög andel 80+? Hur ser utvecklingen ut av 65+? Vilka kommuner har risker med höga andelar 65+ och ensamboenden?
+    - Befolkningspucklar? Skillnader mellan kommuner & mot medelvärdet?
+    - Fördelningen av utbildningsnivå? Utbildningsnivå och skilland baserat på ålder? 
+    - Korrelationen utbildning vs sysselsättning?
+
+**Vad ingår i mappen:**
+- `pbix/` – Power BI-rapport (om filen är <100MB)
+- `images/` – Skärmdumpar
+
+**Kort resultat:** Dashboard/Rapport för analys med klickbara kartor, diagram, tidsserier och KPI-kort för prioritering i områdesutveckling.
