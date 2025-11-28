@@ -16,7 +16,13 @@
     - Korrelationen utbildning vs sysselsättning?
 
 **Vad ingår i mappen:**
-- `pbix/` – Power BI-rapport (om filen är <100MB)
+- `pbix/` – en nedbantad version av Power BI-rapporten
 - `images/` – Skärmdumpar
+- `pptx/` – beskrivning av fullskaliga projektet
+
+**Min roll:**
+Min roll: hela kedjan - kravinsamling → datamodellering → rapportering
+Utmaningen: att hitta data och göra relevanta analyser
+Lösningen: påbörja som en PoC och då med underliggande exceler från diverse öppna källor, förberett datamodellen i Power Query och byggt i Power BI. Nästa steg för rapporten är att flytta datalager till Microsoft Fabric och hämta data via APIer.
 
 **Kort resultat:** Dashboard/Rapport för analys med klickbara kartor, diagram, tidsserier och KPI-kort för prioritering i områdesutveckling.
