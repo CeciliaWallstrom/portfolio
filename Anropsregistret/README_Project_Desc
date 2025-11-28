@@ -1,0 +1,19 @@
+# Anropsregistret
+
+**Syfte:** Visualisering och analys av antalet anrop som görs mot olika kvalitetsregister
+
+**Data:** SKR
+
+**Teknik:** Power BI, Power Query (M), DAX. Med excel som intitial datakälla.
+
+**Innehåll:** 
+- Statistik på antalet anrop per kvalitetsregister och vårdgivare presenterat per månad.
+- Fiktiva beräkningar på Tidsbesparingar per vårdgivare och kvalitetsregister.
+
+**Vad ingår i mappen:**
+- `pbix/` – Power BI-rapporten
+
+**Min roll:**
+Min roll: hela kedjan - kravinsamling → datamodellering → rapportering
+
+**Kort resultat:** Dashboard/Rapport för analys med klickbara tabeller och fiktiva uträkningar av tidsbesparingar.
